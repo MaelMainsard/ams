@@ -24,7 +24,6 @@ public class TestProviderController {
 			.andExpect(content().string(containsString("HP")))
 			.andExpect(content().string(containsString("LG")));
 	}
- //Test
 	
 
 }
